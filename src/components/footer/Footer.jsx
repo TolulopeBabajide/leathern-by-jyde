@@ -3,24 +3,24 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-        <footer class="bg-light text-center text-white">
+        <footer class="bg-light text-center ">
   {/* <!-- Grid container --> */}
   <div class="container p-4 pb-0">
     {/* <!-- Section: Social media --> */}
     <section class="mb-4">
       {/* <!-- Facebook --> */}
       <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #3b5998;"
-        href="#!"
+        class="btn  btn-floating m-1"
+        style={{backgroundColor:" #3b5998;"}}
+        href="/"
         role="button"
         ><i class="fab fa-facebook-f"></i
       ></a>
 
       {/* <!-- Twitter --> */}
       <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #55acee;"
+        class="btn  btn-floating m-1"
+        style={{backgroundColor: " #55acee;"}}
         href="#!"
         role="button"
         ><i class="fab fa-twitter"></i
@@ -28,8 +28,8 @@ const Footer = () => {
 
       {/* <!-- Google --> */}
       <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #dd4b39;"
+        class="btn  btn-floating m-1"
+        style={{backgroundColor: "#dd4b39;"}}
         href="#!"
         role="button"
         ><i class="fab fa-google"></i
@@ -37,8 +37,8 @@ const Footer = () => {
 
       {/* <!-- Instagram --> */}
       <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #ac2bac;"
+        class="btn  btn-floating m-1"
+        style={{backgroundColor: "#ac2bac;"}}
         href="#!"
         role="button"
         ><i class="fab fa-instagram"></i
@@ -46,20 +46,19 @@ const Footer = () => {
 
       {/* <!-- Linkedin --> */}
       <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #0082ca;"
+        class="btn  btn-floating m-1"
+        style={{backgroundColor: "#0082ca;"}}
         href="#!"
         role="button"
         ><i class="fab fa-linkedin-in"></i
       ></a>
       {/* <!-- Github --> */}
       <a
-        class="btn text-white btn-floating m-1"
-        style="background-color: #333333;"
+        class="btn  btn-floating m-1"
+        style={{backgroundColor: "#333333;"}}
         href="#!"
         role="button"
-        ><i class="fab fa-github"></i
-      ></a>
+        ><i class="fa-brands fa-github"></i></a>
     </section>
     {/* <!-- Section: Social media --> */}
   </div>
@@ -67,8 +66,8 @@ const Footer = () => {
 
   {/* <!-- Copyright --> */}
   <div class="text-center p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
-    © 2020 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+   
+    <p> © 2023 Copyright:Leathern by Jyde</p>
   </div>
   {/* <!-- Copyright --> */}
 </footer>

@@ -5,7 +5,14 @@ const Footer = () => {
     <>
         <footer class="bg-light text-center ">
   {/* <!-- Grid container --> */}
-  <div class="container p-4 pb-0">
+  
+  {/* <!-- Grid container --> */}
+
+  {/* <!-- Copyright --> */}
+  <div class="text-center p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
+   
+    <p> © 2023 Copyright:Leathern by Jyde</p>
+    <div class="container p-4 pb-0">
     {/* <!-- Section: Social media --> */}
     <section class="mb-4">
       {/* <!-- Facebook --> */}
@@ -62,12 +69,6 @@ const Footer = () => {
     </section>
     {/* <!-- Section: Social media --> */}
   </div>
-  {/* <!-- Grid container --> */}
-
-  {/* <!-- Copyright --> */}
-  <div class="text-center p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
-   
-    <p> © 2023 Copyright:Leathern by Jyde</p>
   </div>
   {/* <!-- Copyright --> */}
 </footer>

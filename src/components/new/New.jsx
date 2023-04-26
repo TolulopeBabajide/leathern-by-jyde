@@ -1,11 +1,9 @@
 import React from 'react'
-import Nav from '../components/navbar/Nav'
-import Footer from '../components/footer/Footer'
 
-const Shop = () => {
+const New = () => {
   return (
-    <>
-        <Nav/>
+    <div className='p-5'>
+        <h2 className='text-center'>Latest Products</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
   <div class="col">
     <div class="card">
@@ -44,9 +42,8 @@ const Shop = () => {
     </div>
   </div>
 </div>
-        <Footer/>
-    </>
+    </div>
   )
 }
 
-export default Shop
+export default New

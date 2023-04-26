@@ -14,17 +14,17 @@ const Nav = () => {
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="/">Home</a>
         </li>
-        <li className="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li className="nav-item">
+        <a class="nav-link " href="/shop" >
             Shop
           </a>
-          <ul class="dropdown-menu">
+          {/* <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Slippers</a></li>
             <li><a class="dropdown-item" href="#">Sandals</a></li>
-            {/* <li><hr class="dropdown-divider"></li> */}
+            
             <li><a class="dropdown-item" href="#">Shoes</a></li>
             <li><a class="dropdown-item" href="#">Boots</a></li>
-          </ul>
+          </ul> */}
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/about">Contact Us</a>

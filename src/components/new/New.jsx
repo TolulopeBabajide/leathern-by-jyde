@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const New = () => {
   return (
     <div className='p-5'>
@@ -41,7 +42,9 @@ const New = () => {
       </div>
     </div>
   </div>
+  
 </div>
+
     </div>
   )
 }
